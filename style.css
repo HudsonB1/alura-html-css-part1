@@ -86,3 +86,23 @@ body {
     margin: 8px;
     font-style: italic;
 }
+
+@media only screen and (max-width: 480px) {
+    body {
+        background: linear-gradient(0deg, transparent 10%, #000000 90%);
+        background-repeat: no-repeat;
+        height: 300vw;
+    }
+    
+    .cabecalho {
+        height: 50px;
+    }
+
+    .cabecalho .contato li a{
+        font-size: 10px;
+        margin: auto auto;
+    }
+    .cabecalho .contato li a img{
+        height: 15px;
+    }
+}
