@@ -95,6 +95,9 @@ body {
     .cabecalho {
         height: 50px;
     }
+    .cabecalho .logo {
+        width: auto;
+    }
     .cabecalho .contato li a{
         font-size: 10px;
         margin: auto auto;
